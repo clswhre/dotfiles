@@ -1,0 +1,59 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    	"source": "arch",
+    	"color": {             // Override logo colors
+        "1": "#3F7CAC",
+        "2": "#3F7CAC",
+        "3":"#3F7CAC"
+    }},
+        "display": {
+        "separator": "  ",
+    },
+    "modules": [
+        "break",
+        "break",
+        "break",
+        "break",
+        {
+            "type": "os",
+            "key": "󰣇",
+            "format": "{pretty-name}",
+            "keyColor": "#3F7CAC",
+        },
+        {
+            "type": "datetime",
+            "format": "{hour-pretty}:{minute-pretty}",
+            "key": "󰥔",
+            "keyColor": "#3F7CAC",
+        },
+        {
+            "type": "datetime",
+            "format": "{day-pretty}.{month-pretty}.{year}",
+            "key": "󰃭",
+            "keyColor": "#3F7CAC",
+        },
+        {
+            "type": "media",
+            "format" : "{title} - {artist}",
+            "key": "󰝚",
+            "keyColor": "#3F7CAC",
+        },
+                {
+            "type": "cpu",
+            "key": "",
+            "format" : "{name}",
+            "keyColor": "#3F7CAC",
+        },
+                {
+            "type": "gpu",
+            "key": "",
+            "format" : "{name}",
+            "keyColor": "#3F7CAC",
+        },
+        "break",
+        "colors",
+        "break",
+        "break",
+    ]
+}
