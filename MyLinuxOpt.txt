@@ -1,0 +1,50 @@
+1)  sudo nano /etc/default/grub
+
+    GRUB_CMDLINE_LINUX_DEFAULT="nowatchdog zswap.enabled=0 nvme_load=YES quiet loglevel=3 amd_pstate=active nvidia_drm.modeset=1 nvidia_drm.fbdev=1 mitigations=off amd_prefcore=disable split_lock_detect=off nvidia.NVreg_UsePageAttributeTable=1 tsc=reliable clocksource=tsc"
+
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+2)  sudo nano /etc/sysctl.d/99-gaming.conf
+
+    # Мережа (BBR + Cake для низького пінгу)
+    net.core.default_qdisc = cake
+    net.ipv4.tcp_congestion_control = bbr
+    # Пам'ять (Тримати гру в RAM)
+    vm.swappiness = 10
+    vm.vfs_cache_pressure = 50
+    # КРИТИЧНО для CS2 (Фікс вильотів)
+    vm.max_map_count = 2147483642
+
+    sudo sysctl --system
+
+
+3)  nano ~/.config/gamemode.ini
+
+    [general]
+    removerenice = 0
+    renice = 10
+    desiredgov = performance
+    igpu_desiredgov = performance
+    [gpu]
+    apply_gpu_optimisations = accept-responsibility
+    gpu_device = 0
+    nv_powermizer_mode = 1
+    [custom]
+    start = notify-send "GameMode ON"
+    end = notify-send "GameMode OFF"
+
+
+4)  cs2: gamescope -w 1440 -h 1080 -W 1920 -H 1080 -S stretch -f -r 144 --force-grab-cursor -- env LD_PRELOAD="" SDL_AUDIO_DRIVER=pulse PROTON_USE_NTSYNC=1 PROTON_ENABLE_NVAPI=1 gamemoderun game-performance mangohud %command% -vulkan -nojoy -softparticlesdefaultoff -novid +engine_low_latency_sleep_after_client_tick 1
+
+    dota2: env SDL_AUDIO_DRIVER=pulse gamemoderun game-performance mangohud %command% -vulkan -novid
+
+    wotb: env PROTON_USE_NTSYNC=1 PROTON_ENABLE_NVAPI=1 PROTON_ENABLE_WAYLAND=1 gamemoderun game-performance mangohud %command%
+
+
+Чек-лист перевірки:
+
+    cat /proc/cmdline — має бути mitigations=off.
+
+    sysctl vm.max_map_count — має бути 2147483642.
+
+    У грі gamemoded -s — має бути active.
