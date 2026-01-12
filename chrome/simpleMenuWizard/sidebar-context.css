@@ -10,15 +10,15 @@
 
 /* #placesContext_open,                           /* Open                              */
 /* #placesContext_openBookmarkContainer\:tabs,    /* Open All Bookmarks (folder)       */
- #placesContext_openBookmarkLinks\:tabs,        /* Open All Bookmarks (selected tabs)*/
+/* #placesContext_openBookmarkLinks\:tabs,        /* Open All Bookmarks (selected tabs)*/
 /* #placesContext_open\:newtab,                   /* Open in New Tab                   */
 /* #placesContext_open\:newcontainertab,          /* Open in New Container Tab         */
 /* #placesContext_openContainer\:tabs,            /* Open All in Tabs (folder)         */
- #placesContext_openLinks\:tabs,                /* Open All in Tabs (selected tabs)  */
+/* #placesContext_openLinks\:tabs,                /* Open All in Tabs (selected tabs)  */
 /* #placesContext_open\:newwindow,                /* Open in New Window                */
- #placesContext_open\:newprivatewindow,         /* Open in New Private Window        */
- #placesContext_showInFolder,                   /* Show in Folder                    */
- #placesContext_openSeparator,                  /************* Separator *************/
+/* #placesContext_open\:newprivatewindow,         /* Open in New Private Window        */
+/* #placesContext_showInFolder,                   /* Show in Folder                    */
+/* #placesContext_openSeparator,                  /************* Separator *************/
 /* #placesContext_show_bookmark\:info,            /* Edit Bookmark…                    */
 /* #placesContext_show\:info,                     /* Edit…                             */
 /* #placesContext_show_folder\:info,              /* Edit Folder…                      */

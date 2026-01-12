@@ -7,13 +7,14 @@
 
 /*** main-hamburger.css ***/
 /*** When left-clicking on the hamburger menu on top right ***/
-#appMenu-proton-update-banner,                     /* Downloading Firefox update /
+
+ #appMenu-proton-update-banner,                     /* Downloading Firefox update /
                                                          Update available — download now / 
                                                          Unable to update — system incompatible / 
                                                          Update available — restart now */
  #appMenu-fxa-status2,                              /* Sync and save data / Sign In  */
  #appMenu-fxa-separator,                            /*********** Separator ***********/
-/* #appMenu-new-tab-button2,                          /* New Tab                       */
+ #appMenu-new-tab-button2,                          /* New Tab                       */
  #appMenu-new-window-button2,                       /* New Window                    */
  #appMenu-new-private-window-button2,               /* New Private Window            */
  #appMenu-new-private-window-button2
@@ -37,11 +38,11 @@
  #panelMenu_recentHistory,                              /* Recent History (label)        */
  #appMenu_historyMenu,                                  /* Recent History (list)         */
  #appMenu_historyMenu + toolbarseparator,               /*********** Separator ***********/
-/* #PanelUI-historyMore,                                  /* Manage History                */
+ #PanelUI-historyMore,                                  /* Manage History                */
 /* #appMenu-downloads-button,                         /* Downloads                     */
 /* #appMenu-passwords-button,                         /* Passwords                     */
 /* #appMenu-extensions-themes-button,                 /* Add-ons and Themes            */
-/* #appMenu-extensions-themes-button
+ #appMenu-extensions-themes-button
        + toolbarseparator,                            /*********** Separator ***********/
  #appMenu-print-button2,                            /* Print…                        */
  #appMenu-save-file-button2,                        /* Save Page As…                 */
@@ -85,7 +86,7 @@
  #PanelUI-helpItems > #appMenu_troubleShooting,         /* More Troubleshooting Information */
  #PanelUI-helpItems > #appMenu_help_reportSiteIssue,    /* Report Site Issue…               */
  #PanelUI-helpItems
-       > #appMenu_menu_HelpPopup_reportPhishingtoolmenu,  /* Report Deceptive Site…           */
+      > #appMenu_menu_HelpPopup_reportPhishingtoolmenu,  /* Report Deceptive Site…           */
  #PanelUI-helpItems > #appMenu_helpSwitchDevice,        /* Switching to a new device        */
  #PanelUI-helpItems > #appMenu_aboutName,               /* About Firefox                    */
  #appMenu-help-button2 + toolbarseparator,          /*********** Separator ***********/

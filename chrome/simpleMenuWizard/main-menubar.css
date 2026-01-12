@@ -8,8 +8,8 @@
 /*** main-menubar.css ***/
 /*** When left-clicking on the main menubar (open with ALT key) ***/
 
-/* #file-menu,                              /* File                             */
-/* #menu_newNavigatorTab,                       /* New Tab                          */
+ #file-menu,                              /* File                             */
+ #menu_newNavigatorTab,                       /* New Tab                          */
  #menu_newUserContext,                        /* New Container Tab                */
  #menu_newNavigator,                          /* New Window                       */
  #menu_newPrivateWindow,                      /* New Private Window               */
@@ -36,10 +36,10 @@
  #menu_undo,                                  /* Undo                             */
  #menu_redo,                                  /* Redo                             */
  #menu_redo + menuseparator,                  /************ Separator *************/
-/* #menu_cut,                                   /* Cut                              */
-/* #menu_copy,                                  /* Copy                             */
-/* #menu_paste,                                 /* Paste                            */
-/* #menu_delete,                                /* Delete                           */
+ #menu_cut,                                   /* Cut                              */
+ #menu_copy,                                  /* Copy                             */
+ #menu_paste,                                 /* Paste                            */
+ #menu_delete,                                /* Delete                           */
  #menu_delete + menuseparator,                /************ Separator *************/
  #menu_selectAll,                             /* Select All                       */
  #menu_selectAll + menuseparator,             /************ Separator *************/
@@ -49,7 +49,7 @@
  #textfieldDirection-swap,                    /* Switch Text Direction            */
 
 
- #view-menu,                              /* View                             */
+/* #view-menu,                              /* View                             */
 /* #viewToolbarsMenu,                           /* Toolbars                         */
 /* #toggle_toolbar-menubar,                         /* Menu Bar                         */
 /* #toggle_PersonalToolbar,                         /* Bookmarks Toolbar                */
@@ -63,16 +63,16 @@
 /* #menu_historySidebar,                                /* History                          */
 /* #menu_tabsSidebar,                                   /* Synced Tabs                      */
 /* #viewSidebarMenuMenu + menuseparator,        /************ Separator *************/
- #viewFullZoomMenu,                           /* Zoom                             */
- #menu_zoomEnlarge,                               /* Zoom In                          */
- #menu_zoomReduce,                                /* Zoom Out                         */
- #menu_zoomReduce + menuseparator,                /************ Separator *************/
- #menu_zoomReset,                                 /* Actual Size                      */
- #menu_zoomReset + menuseparator,                 /************ Separator *************/
- #toggle_zoom,                                    /* Zoom Text Only                   */
- #pageStyleMenu,                              /* Page Style                       */
- #menu_pageStyleNoStyle,                          /* No Style                         */
- #menu_pageStylePersistentOnly,                   /* Basic Page Style                 */
+/* #viewFullZoomMenu,                           /* Zoom                             */
+/* #menu_zoomEnlarge,                               /* Zoom In                          */
+/* #menu_zoomReduce,                                /* Zoom Out                         */
+/* #menu_zoomReduce + menuseparator,                /************ Separator *************/
+/* #menu_zoomReset,                                 /* Actual Size                      */
+/* #menu_zoomReset + menuseparator,                 /************ Separator *************/
+/* #toggle_zoom,                                    /* Zoom Text Only                   */
+/* #pageStyleMenu,                              /* Page Style                       */
+/* #menu_pageStyleNoStyle,                          /* No Style                         */
+/* #menu_pageStylePersistentOnly,                   /* Basic Page Style                 */
  #charsetMenu,                                /* Text Encoding                    */
  #charsetMenu menu:first-of-type[accesskey="D"],  /* Auto-Detect                      */
  #charsetMenu menu:first-of-type[accesskey="D"]
@@ -88,7 +88,7 @@
  #charsetMenu menuitem[charset="UTF-8"],          /* Unicode                          */
  #charsetMenu menuitem[charset="windows-1252"],   /* Western                          */
  #charsetMenu menuitem[charset="windows-1252"]
-      + menuseparator,                             /************ Separator *************/
+       + menuseparator,                             /************ Separator *************/
  #charsetMenu menuitem[charset="windows-1256"],   /* Arabic (Windows)                 */
  #charsetMenu menuitem[charset="ISO-8859-6"],     /* Arabic (ISO)                     */
  #charsetMenu menuitem[charset="windows-1257"],   /* Baltic (Windows)                 */
@@ -113,37 +113,37 @@
  #charsetMenu menuitem[charset="windows-874"],    /* Thai                             */
  #charsetMenu menuitem[charset="windows-1254"],   /* Turkish                          */
  #charsetMenu menuitem[charset="windows-1258"],   /* Vietnamese                       */
-/* #charsetMenu + menuseparator,                /************ Separator *************/
-/* #fullScreenItem,                             /* Full Screen                      */
-/* #menu_readerModeItem,                        /* Enter Reader View                */
-/* #menu_showAllTabs,                           /* Show All Tabs                    */
-/* #documentDirection-separator,                /************ Separator *************/
-/* #documentDirection-swap,                     /* Switch Page Direction            */
+ #charsetMenu + menuseparator,                /************ Separator *************/
+ #fullScreenItem,                             /* Full Screen                      */
+ #menu_readerModeItem,                        /* Enter Reader View                */
+ #menu_showAllTabs,                           /* Show All Tabs                    */
+ #documentDirection-separator,                /************ Separator *************/
+ #documentDirection-swap,                     /* Switch Page Direction            */
 
 
 /* #history-menu,                           /* History                          */
 /* #menu_showAllHistory,                        /* Show All History                 */
 /* #sanitizeItem,                               /* Clear Recent History…            */
-/* #sanitizeSeparator,                          /************ Separator *************/
-/* #sync-tabs-menuitem,                         /* Synced Tabs                      */
-/* #historyRestoreLastSession,                  /* Restore Previous Session         */
-/* #hiddenTabsMenu,                             /* Hidden Tabs                      */
-/* #historyUndoMenu,                            /* Recently Closed Tabs             */
-/* #historyUndoWindowMenu,                      /* Recently Closed Windows          */
-/* #startHistorySeparator,                      /************ Separator *************/
-/* #startHistorySeparator ~ menuitem,           /* (List of recently closed tabs)   */
+ #sanitizeSeparator,                          /************ Separator *************/
+ #sync-tabs-menuitem,                         /* Synced Tabs                      */
+ #historyRestoreLastSession,                  /* Restore Previous Session         */
+ #hiddenTabsMenu,                             /* Hidden Tabs                      */
+ #historyUndoMenu,                            /* Recently Closed Tabs             */
+ #historyUndoWindowMenu,                      /* Recently Closed Windows          */
+ #startHistorySeparator,                      /************ Separator *************/
+ #startHistorySeparator ~ menuitem,           /* (List of recently closed tabs)   */
 
 
-/* #bookmarksMenu,                          /* Bookmarks                        */
-/* #bookmarksShowAll,                           /* Show All Bookmarks               */
-/* #organizeBookmarksSeparator,                 /************ Separator *************/
-/* #menu_bookmarkThisPage,                      /* Bookmark Current Tab             */
-/* #menu_bookmarkAllTabs,                       /* Bookmark All Tabs…               */
-/* #bookmarksToolbarSeparator,                  /************ Separator *************/
-/* #bookmarksToolbarFolderMenu,                 /* Bookmarks Toolbar                */
-/* #menu_unsortedBookmarks,                     /* Other Bookmarks                  */
-/* #menu_mobileBookmarks,                       /* Mobile Bookmarks                 */
-/* #bookmarksMenuItemsSeparator,                /************ Separator *************/
+ #bookmarksMenu,                          /* Bookmarks                        */
+ #bookmarksShowAll,                           /* Show All Bookmarks               */
+ #organizeBookmarksSeparator,                 /************ Separator *************/
+ #menu_bookmarkThisPage,                      /* Bookmark Current Tab             */
+ #menu_bookmarkAllTabs,                       /* Bookmark All Tabs…               */
+ #bookmarksToolbarSeparator,                  /************ Separator *************/
+ #bookmarksToolbarFolderMenu,                 /* Bookmarks Toolbar                */
+ #menu_unsortedBookmarks,                     /* Other Bookmarks                  */
+ #menu_mobileBookmarks,                       /* Mobile Bookmarks                 */
+ #bookmarksMenuItemsSeparator,                /************ Separator *************/
  #bookmarksMenuItemsSeparator
        + menuseparator[hidden] + menu,          /* Recent Tags                      */
  #bookmarksMenuItemsSeparator
@@ -153,26 +153,26 @@
 /* #tools-menu,                             /* Tools                            */
 /* #menu_openDownloads,                         /* Downloads                        */
 /* #menu_openAddons,                            /* Add-ons and Themes               */
-/* #sync-setup,                                 /* Sign In                          */
+ #sync-setup,                                 /* Sign In                          */
  #sync-enable,                                /* Turn on Sync…                    */
-/* #sync-unverifieditem,                        /* Sign In                          */
- #sync-syncnowitem,                           /* Sync Now                         */
+ #sync-unverifieditem,                        /* Sign In                          */
+/* #sync-syncnowitem,                           /* Sync Now                         */
  #sync-reauthitem,                            /* Reconnect to Firefox…            */
-/* #devToolsSeparator,                          /************ Separator *************/
+ #devToolsSeparator,                          /************ Separator *************/
  #webDeveloperMenu,                           /* Web Developer                    */
  #enableDeveloperTools,                           /* Enable Developer Tools…          */
- #menu_devToolbox,                                /* Web Developer Tools              */
+/* #menu_devToolbox,                                /* Web Developer Tools              */
  #menu_taskManager,                               /* Task Manager                     */
- #menu_devtools_remotedebugging,                  /* Remote Debugging                 */
- #menu_browserToolbox,                            /* Browser Toolbox                  */
+/* #menu_devtools_remotedebugging,                  /* Remote Debugging                 */
+/* #menu_browserToolbox,                            /* Browser Toolbox                  */
  #menu_browserContentToolbox,                     /* Browser Content Toolbox          */
- #menu_browserConsole,                            /* Browser Console                  */
+/* #menu_browserConsole,                            /* Browser Console                  */
  #menu_responsiveUI,                              /* Responsive Design Mode           */
  #menu_eyedropper,                                /* Eyedropper                       */
  #menu_pageSource,                                /* Page Source                      */
  #menu-tools-page-source,                         /* Extensions for Developers        */
  #menu_pageInfo,                              /* Page Info                        */
- #prefSep,                                    /************ Separator *************/
+/* #prefSep,                                    /************ Separator *************/
 /* #menu_preferences,                           /* Settings                         */
 
 

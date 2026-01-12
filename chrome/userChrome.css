@@ -1,3 +1,4 @@
+/*AGENT_SHEET*/
 /*** When right-clicking on... ***/
 @import url("./simpleMenuWizard/blank-context.css");      /* ...a blank area on a webpage                      */
 @import url("./simpleMenuWizard/frame-context.css");      /* ...an iframe                                      */
@@ -16,33 +17,76 @@
 @import url("./simpleMenuWizard/toolbar-context.css");    /* ...the toolbar or tabbar                          */
 @import url("./simpleMenuWizard/urlbar-context.css");     /* ...the addressbar                                 */
 
-/*** Hide all "Send <item> to Device" entries ***/
 @import url("./simpleMenuWizard/opt_noSendToDevice.css");
-
-/*** Hide all inactive menu items ***/
 #mainPopupSet menuitem[disabled="true"][id][data-l10n-id] { display: none !important; }
+menupopup > menuitem[disabled="true"],
+menupopup > menu[disabled="true"] {
+    display: none !important;
+}
 
-/****** simpleMenuWizard END ******/
+/* Опціонально: приховує розділювачі, якщо вони опинилися на початку або в кінці через приховування пунктів.
+ *  Це не ідеально, оскільки подвійні розділювачі всередині меню залишаться. */
+menupopup > menuseparator:first-child,
+menupopup > menuseparator:last-child {
+    display: none !important;
+}
+
+
 /**********************************/
-#statuspanel,
-#appMenu-translate-button,
-#appMenu-header-description,
+#context-sep-redo,
+#context-undo,
+#context-ask-chat, /* Це може не працювати для чат-бота, але хай буде */
+#spell-check-enabled,
 #forward-button,
 #identity-icon-box,
-#appMenu-report-broken-site-button{ display: none !important; }
-
-
-/* Center the Address Bar Container */
-#urlbar-container {
-margin-left: auto !important;
-margin-right: auto !important;
-max-width: 60% !important; /* Adjust this width as you like */
+#context-openlink,
+#context-openlinkprivate,
+#context-previewlink,
+#context-sep-open,
+#context-savelink,
+#context-translate-selection,
+#context-bookmarklink,
+#toolbar-context-reloadSelectedTab,
+#toolbar-context-bookmarkSelectedTab,
+#toolbar-context-undoCloseTab,
+#toolbar-context-toggle-vertical-tabs,
+#toggle_toolbar-menubar,
+#toolbar-context-customize,
+#tracking-protection-icon-container {
+display: none !important;
 }
 
-#urlbar:not([focused]) #urlbar-input {
-text-align: center !important;
+/* Окремо приховуємо сам пункт меню чат-бота (бо це не роздільник) */
+menuitem[label="Ask an AI Chatbot (Z)"] {
+    display: none !important;
 }
 
-* {
-    font-family: "Bitstream Vera Sans Mono", monospace !important;
+/* ГЛОБАЛЬНЕ ВИДАЛЕННЯ ВСІХ РОЗДІЛЬНИКІВ */
+menuseparator, .menuseparator {
+    display: none !important;
+}
+
+menupopup > menuitem,
+menupopup > menu {
+    padding-block: 2px !important; /* Відступ зверху і знизу тексту (стандарт ~8px) */
+    min-height: 22px !important;   /* Мінімальна висота рядка (стандарт ~28px) */
+    margin: 0 !important;          /* Прибирає зайві проміжки між пунктами */
+}
+
+/* 2. Зменшення відступів у панелях (меню "Гамбургер", Завантаження, Історія) */
+:root {
+    --arrowpanel-menuitem-padding: 4px !important; /* Глобальна змінна Firefox для панелей */
+    --arrowpanel-menuitem-margin: 0px !important;
+}
+
+/* 3. Корекція іконок (щоб вони не "злипалися", якщо текст дуже стиснутий) */
+.menu-iconic-left {
+    padding-inline-end: 5px !important;
+    margin-inline-end: 0 !important;
+}
+#statuspanel{ display: none !important }
+
+
+*{
+    font-family: "AtkynsonMono Nerd Font Mono", monospace;
 }

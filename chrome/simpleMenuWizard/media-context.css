@@ -10,14 +10,14 @@
 
 /* #context-media-play,                  /* Play                            */
 /* #context-media-pause,                 /* Pause                           */
- #context-media-mute,                  /* Mute                            */
- #context-media-unmute,                /* Unmute                          */
- #context-media-playbackrate,          /* Speed                           */
- #context-media-playbackrate-050x,         /* 0.5×                            */
- #context-media-playbackrate-100x,         /* 1.0×                            */
- #context-media-playbackrate-125x,         /* 1.25×                           */
- #context-media-playbackrate-150x,         /* 1.5×                            */
- #context-media-playbackrate-200x,         /* 2×                              */
+/* #context-media-mute,                  /* Mute                            */
+/* #context-media-unmute,                /* Unmute                          */
+/* #context-media-playbackrate,          /* Speed                           */
+/* #context-media-playbackrate-050x,         /* 0.5×                            */
+/* #context-media-playbackrate-100x,         /* 1.0×                            */
+/* #context-media-playbackrate-125x,         /* 1.25×                           */
+/* #context-media-playbackrate-150x,         /* 1.5×                            */
+/* #context-media-playbackrate-200x,         /* 2×                              */
 /* #context-media-loop,                  /* Loop                            */
 /* #context-leave-dom-fullscreen,        /* Exit Full Screen                */
 /* #context-video-fullscreen,            /* Full Screen                     */
