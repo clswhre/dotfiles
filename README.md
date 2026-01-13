@@ -28,8 +28,8 @@ My personal configuration files for [Your OS, e.g., Arch Linux/macOS]. Managed w
 ```text
 .
 ├── assets/         # Screenshots for README
-├── alacritty/      # Terminal config
-├── hypr/           # Window Manager config
-├── nvim/           # Neovim config
-├── zsh/            # Shell config
+├── .config/        # Linux config folder
+├── .local/         # Color scheme for KDE
+├── usr/            # Wallpapers
+├── chrome/         # Firefox custom CSS
 └── README.md
