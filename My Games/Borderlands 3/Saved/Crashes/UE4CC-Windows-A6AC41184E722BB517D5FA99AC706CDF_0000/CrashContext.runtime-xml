@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-A6AC41184E722BB517D5FA99AC706CDF_0000</CrashGUID>
+<ProcessId>220</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-OakGame</GameName>
+<ExecutableName>Borderlands3</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName>Catnip</DeploymentName>
+<EngineVersion>4.20.3-3758051+OAK-PATCHAWSDIESEL-434</EngineVersion>
+<CommandLine>OakGame -d3d11 -AUTH_LOGIN=unused -AUTH_PASSWORD=e37a37f8f7a94091bbcb61d0e50abfa1 -AUTH_TYPE=exchangecode -epicapp=Catnip -epicenv=Prod -epicovt=/home/clswhre/.config/heroic/legendaryConfig/legendary/tmp/catnip5cf86732e2744fec98a1c8a077d9f3a8.ovt -EpicPortal -epicusername=5ago -epicuserid=283df747cfcb4ccf9537938a1e0f7a75 -epiclocale=en -epicsandboxid=catnip</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>OAK-PATCHAWSDIESEL-434-CL-3758051</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>Z:/home/clswhre/Games/Heroic/Borderlands3/OakGame/Binaries/Win64/</BaseDir>
+<RootDir>Z:/home/clswhre/Games/Heroic/Borderlands3/</RootDir>
+<MachineId>8706CF0D42DFA26A96CFFD902ACA684E</MachineId>
+<LoginId>8706cf0d42dfa26a96cffd902aca684e</LoginId>
+<EpicAccountId></EpicAccountId>
+<CallStack></CallStack>
+<PCallStack>
+kernelbase    0x00006fffffbf0000 + d187    
+Borderlands3  0x0000000140000000 + 1712ec4 
+Borderlands3  0x0000000140000000 + 16e2d6c 
+Borderlands3  0x0000000140000000 + 168e56d 
+Borderlands3  0x0000000140000000 + 1f37dda 
+Borderlands3  0x0000000140000000 + 1f3bf03 
+Borderlands3  0x0000000140000000 + 42ba51  
+Borderlands3  0x0000000140000000 + 4253bc  
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>LowLevelFatalError [File:Unknown] [Line: 69] 
+-d3d12, -d3d11, -d3d10, -vulkan, and -opengl[3|4] are mutually exclusive options, but more than one was specified on the command-line.
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 5 7235HS                             </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3050 6GB Laptop GPU</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Build 19045</Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>16430710784</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>32860848128</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>11573891072</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>26931912704</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>681316352</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>681316352</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>632524800</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>632524800</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<execution_guid>7086A3714AA70855B089BABB2FF8F50C</execution_guid>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>

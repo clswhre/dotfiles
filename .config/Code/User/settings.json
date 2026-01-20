@@ -18,10 +18,10 @@
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.copyWithSyntaxHighlighting": false,
-    "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "line-thin",
-    "editor.fontFamily": "\"0xProto Nerd Font Mono\"",
+    "editor.fontFamily": "\"JetBrainsMono Nerd Font Mono\"",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.guides.bracketPairs": "active",
@@ -58,5 +58,15 @@
     "workbench.tree.indent": 14,
     "editor.inlineSuggest.showToolbar": "always",
     "explorer.confirmDragAndDrop": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "editor.codeActionWidget.showHeaders": false,
+    "editor.codeLens": false,
+    "editor.cursorSurroundingLines": 5,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "custom-ui-style.external.imports": [
+        "file:///home/clswhre/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ]
 }
