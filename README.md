@@ -20,11 +20,11 @@ My personal configuration files for Material-like Arch linux, enspired by wallpa
 
 ## ⚙️ Configuration
 
-|OS: CachyOS x86_64|
-|DE: KDE Plasma 6.5.5|
-|WM: KWin (Wayland)|
-|Shell: fish 4.3.3|
-|Terminal: Kitty 0.45.0-4.1| 
+**OS:** CachyOS x86_64
+**DE:** KDE Plasma 6.5.5
+**WM:** KWin (Wayland)
+**Shell:** fish 4.3.3
+**Terminal:** Kitty 0.45.0-4.1
 
 ## 📂 Structure
 
