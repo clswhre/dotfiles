@@ -7,3 +7,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #end
 
 fish_add_path /home/clswhre/.spicetify
+
+function fish_title
+	echo Kitty
+end

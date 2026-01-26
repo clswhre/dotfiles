@@ -1,0 +1,48 @@
+[General]
+ColorScheme=MaterialArch
+Name=Material Arch
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[Colors:View]
+# Matches the darker "matte" texture of the wallpaper background
+BackgroundNormal=35,35,35
+BackgroundAlternate=45,45,45
+ForegroundNormal=238,238,238
+DecorationFocus=23,147,209
+DecorationHover=85,180,225
+
+[Colors:Window]
+# The primary background color extracted from the wallpaper (#232323)
+BackgroundNormal=35,35,35
+BackgroundAlternate=28,28,28
+ForegroundNormal=238,238,238
+ForegroundInactive=117,117,117
+ForegroundLink=23,147,209
+ForegroundVisited=171,71,188
+DecorationFocus=23,147,209
+DecorationHover=85,180,225
+
+[Colors:Button]
+BackgroundNormal=48,48,48
+BackgroundAlternate=35,35,35
+ForegroundNormal=238,238,238
+DecorationFocus=23,147,209
+DecorationHover=85,180,225
+
+[Colors:Selection]
+# The specific Arch Blue (#1793D1)
+BackgroundNormal=23,147,209
+ForegroundNormal=255,255,255
+ForegroundInactive=189,189,189
+
+[WM]
+activeBackground=35,35,35
+activeForeground=238,238,238
+inactiveBackground=35,35,35
+inactiveForeground=117,117,117
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true

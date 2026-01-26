@@ -1,0 +1,101 @@
+linux_display_server wayland
+notify_on_cmd_finish unfocused
+allow_hyperlinks yes
+clipboard_max_size 512
+
+remember_window_size  no
+initial_window_width  110c
+initial_window_height 25c
+
+# --- Font Settings ---
+font_family      AtkynsonMono Nerd Font Mono
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size        12.0
+disable_ligatures never
+
+# --- Window Settings ---
+remember_window_size  no
+initial_window_width  120c
+initial_window_height 25c
+
+# Padding
+window_padding_width 10
+
+# Opacity
+background_opacity 0.75
+
+# Decorations
+hide_window_decorations no
+enable_audio_bell no
+visual_bell_duration 2.0 ease-in linear
+wayland_titlebar_color background
+
+# --- Scrolling ---
+scrollback_lines 10000
+wheel_scroll_multiplier 3.0
+touch_scroll_multiplier 4.5
+
+# --- Cursor ---
+# Colors from plist
+cursor            #FFFFFF
+cursor_text_color #141414
+
+# Shape and blinking
+cursor_shape beam
+cursor_shape_unfocused unchanged
+cursor_beam_thickness 1.0
+cursor_blink_interval 0.3
+cursor_stop_blinking_after 0
+cursor_trail 1
+cursor_trail_start_threshold 0
+cursor_trail_decay 0.1 0.4
+
+# --- Mouse ---
+mouse_hide_wait 3.0
+url_color #88C0D0
+url_style curly
+
+# Paste on middle click
+mouse_map middle release ungrabbed paste_from_selection
+
+# --- Selection ---
+copy_on_select yes
+select_by_word_characters @-./_~?&=%+#
+
+# --- Colors Scheme (Converted from plist/Nord) ---
+foreground #FFFFFF
+background #141414
+
+selection_foreground #FFFFFF
+selection_background #303030
+
+# Normal colors
+color0 #2A2A2A
+color1 #BF616A
+color2 #A3BE8C
+color3 #EBCB8B
+color4 #81A1C1
+color5 #B48EAD
+color6 #88C0D0
+color7 #D8DEE9
+
+# Bright colors
+color8  #505050
+color9  #BF616A
+color10 #A3BE8C
+color11 #EBCB8B
+color12 #81A1C1
+color13 #B48EAD
+color14 #88C0D0
+color15 #FFFFFF
+
+# --- Keybindings ---
+map ctrl+0 change_font_size all 0
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+
+map shift+page_up scroll_page_up
+map shift+page_down scroll_page_down
+map shift+home scroll_home
