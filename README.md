@@ -1,6 +1,6 @@
 # .dotfiles
 
-My personal configuration files for Material-like Arch linux, enspired by wallpapers.
+My personal configuration files for Material-like Kde, enspired by wallpapers.
 
 ## 🖼️ Gallery
 
@@ -24,7 +24,7 @@ My personal configuration files for Material-like Arch linux, enspired by wallpa
 **DE:** KDE Plasma 6.5.5\
 **WM:** KWin (Wayland)\
 **Shell:** fish 4.3.3\
-**Terminal:** Kitty 0.45.0-4.1\
+**Terminal:** Kitty 0.45.0-4.1
 
 ## 📂 Structure
 
