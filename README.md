@@ -1,8 +1,11 @@
 # .dotfiles
 
-My personal configuration files for [Your OS, e.g., Arch Linux/macOS]. Managed with GNU Stow.
+My personal configuration files for Material-like Arch linux, enspired by wallpapers.
 
 ## 🖼️ Gallery
+
+### Wallpapers
+![Wallpapers](assets/wallpaper.png)
 
 ### Desktop & Settings
 ![Desktop](assets/kde.png)
@@ -13,23 +16,27 @@ My personal configuration files for [Your OS, e.g., Arch Linux/macOS]. Managed w
 ### Btop
 ![Editor](assets/btop.png)
 
+
+
 ## ⚙️ Configuration
 
-| Category | Tool | Description |
+|OS: CachyOS x86_64|
 | :--- | :--- | :--- |
-| **OS** | Arch Linux | CachyOS Kernel |
-| **WM** | Kde | Windows-like DE|
-| **Shell** | Fish | With my configuration |
-| **Terminal** | Kitty | GPU-accelerated terminal |
-| **Editor** | Vscode | Gold standart |
+|DE: KDE Plasma 6.5.5|
+| :--- | :--- | :--- |
+|WM: KWin (Wayland)|
+| :--- | :--- | :--- |
+|Shell: fish 4.3.3|
+| :--- | :--- | :--- |
+|Terminal: Kitty 0.45.0-4.1| 
 
 ## 📂 Structure
 
 ```text
 .
-├── assets/         # Screenshots for README
-├── .config/        # Linux config folder
-├── .local/         # Color scheme for KDE
-├── usr/            # Wallpapers
-├── chrome/         # Firefox custom CSS
-└── README.md
+├── .config/            # Configuration files
+├── assets/             # Screenshots for README
+├── chrome/             # CustomCss for FireFox
+├── usr/                # KDE color scheme & wallpaper
+├── postinstall.txt     # Post-install tweaks
+└── README.md           # README
