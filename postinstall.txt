@@ -1,0 +1,25 @@
+1)  sudo nano /etc/default/grub
+
+    GRUB_CMDLINE_LINUX_DEFAULT='nowatchdog zswap.enabled=0 nvme_load=YES quiet loglevel=3 amd_pstate=active mitigations=off amd_prefcore=disable split_lock_detect=off nvidia_drm.modeset=1'
+
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+2)  sudo nano /etc/sysctl.d/99-gaming.conf
+
+    net.core.default_qdisc = cake
+    net.ipv4.tcp_congestion_control = bbr
+    vm.swappiness = 10
+    vm.vfs_cache_pressure = 50
+    vm.max_map_count = 2147483642
+
+    sudo sysctl --system
+
+
+4)  cs2: __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia LD_PRELOAD=""
+         SDL_AUDIO_DRIVER=pulse prime-run gamemoderun game-performance gamescope
+         -W 1920 -H 1080 -w 1440 -h 1080 -r 144 -S stretch  --force-grab-cursor -f --
+         %command% -vulkan -novid -nojoy
+
+    dota2: env SDL_AUDIO_DRIVER=pulse gamemoderun game-performance mangohud %command% -vulkan -novid
+
+    wotb: PROTON_USE_NTSYNC=1 PROTON_ENABLE_NVAPI=1 PROTON_ENABLE_WAYLAND=1 prime-run gamemoderun game-performance %command%

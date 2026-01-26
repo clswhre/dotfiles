@@ -5,10 +5,10 @@ My personal configuration files for [Your OS, e.g., Arch Linux/macOS]. Managed w
 ## 🖼️ Gallery
 
 ### Desktop & Settings
-![Desktop](assets/kde_scheme.png)
+![Desktop](assets/kde.png)
 
 ### Terminal Workflow
-![Terminal](assets/kitty_fastfetch.png)
+![Terminal](assets/kitty.png)
 
 ### Btop
 ![Editor](assets/btop.png)
