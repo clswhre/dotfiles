@@ -1,6 +1,6 @@
 # .dotfiles
 
-My personal configuration files for Material-like Kde, enspired by wallpapers.
+My personal configuration files for Material-like Kde, inspired by wallpapers.
 
 ## 🖼️ Gallery
 
